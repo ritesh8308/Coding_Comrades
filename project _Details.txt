@@ -27,15 +27,6 @@ Standardize the data format
 Task 1: Identify Issues in the Data
 Your manager provides you with an example dataset where some records are incomplete or incorrect. Here’s an example:
 
-Task 1: Identify Issues in the Data
-Your manager provides you with an example dataset where some records are incomplete or incorrect. Here’s an example:
-
-Task 1: Identify Issues in the Data
-Your manager provides you with an example dataset where some records are incomplete or incorrect. Here’s an example:
-
-Task 1: Identify Issues in the Data
-Your manager provides you with an example dataset where some records are incomplete or incorrect. Here’s an example:
-
 Task 2: Clean the Data
 We will:
 
