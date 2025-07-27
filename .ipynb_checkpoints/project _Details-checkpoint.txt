@@ -1,0 +1,74 @@
+#INTRODUCTION:
+
+Task 1: Load the User Data
+Your manager has given you a dataset containing information about CodeBook users, their connections (friends), and the pages they have liked.
+
+Task 2: Read and Display the Data using Python
+Your goal is to load this data and print it in a structured way. Use Python's built-in modules to accomplish this.
+
+
+
+
+
+
+
+#Cleaning and Structuring the Data:
+
+
+Introduction
+Your manager is impressed with your progress but points out that the data is messy. Before we can analyze it effectively, we need to clean and structure the data properly.
+
+Your task is to:
+
+Handle missing values
+Remove duplicate or inconsistent data
+Standardize the data format
+
+Task 1: Identify Issues in the Data
+Your manager provides you with an example dataset where some records are incomplete or incorrect. Here’s an example:
+
+Task 2: Clean the Data
+We will:
+
+Remove users with missing names.
+Remove duplicate friend entries.
+Remove inactive users (users with no friends and no liked pages).
+Deduplicate pages based on IDs.
+
+
+
+# FEATURE 1: Finding "People You May Know"
+
+Task 1: Understand the Logic
+How 'People You May Know' Works:
+If User A and User B are not friends but have mutual friends, we suggest User B to User A and vice versa.
+More mutual friends = higher priority recommendation.
+
+Task 2: Implement the Algorithm
+We'll create a function that:
+
+Finds all friends of a given user.
+Identifies mutual friends between non-friends.
+Ranks recommendations by the number of mutual friends.
+
+
+
+
+# FEATURE 2: Finding "Pages You Might Like"
+
+Task 1: Understanding the Recommendation Logic
+How 'Pages You Might Like' Works:
+Users engage with pages (like, comment, share, etc.).
+If two users have interacted with similar pages, they are likely to have common interests.
+For the sake of this implementation, we consider liking a page as an interaction
+Pages followed by similar users should be recommended.
+
+Task 2: Implement the Algorithm
+We'll create a function that:
+
+Maps users to pages they have interacted with.
+Identifies pages liked by users with similar interests.
+Ranks recommendations based on common interactions.
+
+
+
